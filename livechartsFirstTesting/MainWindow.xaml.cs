@@ -30,17 +30,17 @@ namespace livechartsFirstTesting
             {
                 new ColumnSeries
                 {
-                    Title = "value 1",
+                    Title = "Aaloo",
                     Values = new ChartValues<double>{1,2,3,4,5,6},
                 }
             };
             SeriesCollection.Add(new ColumnSeries
             {
-                Title = "value 2",
+                Title = "bhaloo",
                 Values = new ChartValues<double> { 2, 4, 5, 8, 6, 9 },
             });
 
-            BarLabels = new string[] { "value1", "value2", "value1", "value2", "value1" };
+            BarLabels = new string[] { "value1", "value2", "another", "next", "last", "actual last" };
             Formatter = value => value.ToString("N");
             DataContext = this;
         }
