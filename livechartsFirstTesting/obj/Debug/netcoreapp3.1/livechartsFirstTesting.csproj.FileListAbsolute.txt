@@ -20,3 +20,6 @@ C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\obj\De
 C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\obj\Debug\netcoreapp3.1\livechartsFirstTesting.dll
 C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\obj\Debug\netcoreapp3.1\livechartsFirstTesting.pdb
 C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\obj\Debug\netcoreapp3.1\livechartsFirstTesting.genruntimeconfig.cache
+C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\krris\source\repos\livechartsFirstTesting\livechartsFirstTesting\obj\Debug\netcoreapp3.1\App.baml

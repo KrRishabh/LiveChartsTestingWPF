@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EVgOEPOSxLO6lF7d96RdcesDoJxPASE4TTl6RhyZgbtWJuVt44oOj3AmJVww94ZRNvmI+Epgq12Iod5+Ym8DSg==",
+  "dgSpecHash": "mfn8xn6WIox05RxvWQVSbi2D/FCyM/bYs75DegRlQ2QxeNsOZh17Hy1xXMYCRDmYlqorzRvQjhxz9pJBElQKuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\krris\\source\\repos\\livechartsFirstTesting\\livechartsFirstTesting\\livechartsFirstTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krris\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\krris\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+    "C:\\Users\\krris\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\krris\\.nuget\\packages\\materialdesigncolors\\2.0.1\\materialdesigncolors.2.0.1.nupkg.sha512",
+    "C:\\Users\\krris\\.nuget\\packages\\materialdesignthemes\\4.1.0\\materialdesignthemes.4.1.0.nupkg.sha512"
   ],
   "logs": [
     {

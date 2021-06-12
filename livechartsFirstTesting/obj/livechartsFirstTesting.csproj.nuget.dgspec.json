@@ -47,6 +47,10 @@
             "LiveCharts.Wpf": {
               "target": "Package",
               "version": "[0.9.7, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
