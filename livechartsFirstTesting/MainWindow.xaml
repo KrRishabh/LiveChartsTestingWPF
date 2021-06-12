@@ -6,9 +6,19 @@
         xmlns:local="clr-namespace:livechartsFirstTesting"
         xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <lvc:CartesianChart Series="{Binding SeriesCollection}" LegendLocation="Left">
+        Title="MainWindow" Height="450" Width="800" Background="#F4ECE4"
+        WindowStyle="ThreeDBorderWindow"
+    WindowStartupLocation="CenterScreen">
+
+    
+    <Grid  Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+
+        <lvc:CartesianChart Series="{Binding FirstSeriesCollection}" LegendLocation="Left" Grid.Column="0" Margin="20">
             <lvc:CartesianChart.AxisX>
                 <lvc:Axis Title="X" Labels="{Binding BarLabels}"></lvc:Axis>
             </lvc:CartesianChart.AxisX>
@@ -16,6 +26,7 @@
                 <lvc:Axis Title="Y" LabelFormatter="{Binding Formatter}"></lvc:Axis>
             </lvc:CartesianChart.AxisY>
         </lvc:CartesianChart>
+        <lvc:CartesianChart Series="{Binding LineChartSeriesCollection}" Grid.Column="1" Margin="20"/>
 
     </Grid>
 </Window>

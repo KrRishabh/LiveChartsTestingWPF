@@ -23,29 +23,44 @@ namespace livechartsFirstTesting
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+
         public MainWindow()
         {
             InitializeComponent();
-            SeriesCollection = new SeriesCollection
+            
+            FirstSeriesCollection = new SeriesCollection
             {
                 new ColumnSeries
                 {
-                    Title = "Aaloo",
+                    Title = "Person 1",
                     Values = new ChartValues<double>{1,2,3,4,5,6},
                 }
             };
-            SeriesCollection.Add(new ColumnSeries
+            FirstSeriesCollection.Add(new ColumnSeries
             {
-                Title = "bhaloo",
+                Title = "Person 2",
                 Values = new ChartValues<double> { 2, 4, 5, 8, 6, 9 },
             });
 
             BarLabels = new string[] { "value1", "value2", "another", "next", "last", "actual last" };
             Formatter = value => value.ToString("N");
             DataContext = this;
+            LineChartSeriesCollection = new SeriesCollection();
+            LineChartSeriesCollection.Add(new LineSeries
+            {
+                Title = "hmmm",
+                Values = new ChartValues<double> { 1, 5, 4, 8 }
+            });
+            LineChartSeriesCollection.Add( new LineSeries { Title= "asdf",
+            Values = new ChartValues<double> { 5,3,7,9},
+            }
+            );
+            
         }
 
-        public SeriesCollection SeriesCollection { get; }
+        public SeriesCollection FirstSeriesCollection { get; }
+        public SeriesCollection LineChartSeriesCollection { get; }
         public string[] BarLabels { get; }
         public Func<double, string> Formatter { get; set; }
     }
